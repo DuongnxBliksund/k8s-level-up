@@ -1,0 +1,7 @@
+# per-player state
+progress.txt
+answers/*.txt
+data/visits.txt
+
+# private: the learning plan holds Bliksund deploy details and stays out of any remote
+kubernetes-learning-plan.md
