@@ -13,6 +13,7 @@ Training is open book: read `app/` and `scroll/` freely. Run every command from 
 Clean up after the boss:
 
 ```
-docker rm -f move1-a move1-b move3 move4
-docker rmi k8s-game/training
+./cleanup.sh
 ```
+
+This removes the training containers and image but keeps `progress.txt` and your answers. Run `./cleanup.sh --reset` to start the training from zero.

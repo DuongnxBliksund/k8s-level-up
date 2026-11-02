@@ -27,6 +27,7 @@ The image builds and the container starts. The curl still fails. Find out why an
 ## Clean up
 
 ```
-docker rm -f level-0
-docker rmi k8s-game/level-0
+./cleanup.sh
 ```
+
+This removes the level 0 container and image and the training ground containers and image. Add `--reset` to also delete your training progress and answers.
