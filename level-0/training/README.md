@@ -10,6 +10,8 @@ Five moves, 2 XP each. Learn them in order, each one has a check. The boss (leve
 
 Training is open book: read `app/` and `scroll/` freely. Run every command from this folder. `./check.sh N` checks move N and records it in `progress.txt`.
 
+Or let `./play.sh` drive: it shows a move, opens a shell for you to run its commands, checks the move when you type `check` (or `exit`), and shows the next move when the check passes. Inside that shell, `try` prints the move's commands and `move` prints the whole move again. It starts at your first unpassed move. `./play.sh 3` starts at move 3.
+
 Clean up after the boss:
 
 ```
